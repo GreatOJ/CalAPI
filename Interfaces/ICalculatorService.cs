@@ -1,7 +1,7 @@
 namespace CalAPI.Interface;
 public interface ICalculatorService{
-    decimal Add(decimal x, decimal y);
-    decimal Subtract(decimal x, decimal y);
-    decimal Multiply(decimal x, decimal y);
-    decimal Divide(decimal x, decimal y);
+    double Add(double x, double y);
+    double Subtract(double x, double y);
+    double Multiply(double x, double y);
+    double Divide(double x, double y);
 }

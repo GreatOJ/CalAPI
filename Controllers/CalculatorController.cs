@@ -12,29 +12,33 @@ public class CalculatorController : Controller
         _calculatorService = calculatorService;
     } 
 
-    [Route("{x}/{y}")]
-    [HttpGet]
-    public decimal Add(decimal x, decimal y)
+    [HttpGet("ädd")]
+    public IActionResult Add(double x, double y)
     {
-        return _calculatorService.Add(x, y);
+        var result = _calculatorService.Add(x, y);
+        return Ok(result);
     }
-    [Route("{x}/{y}")]
-    [HttpGet]
-    public decimal Subtract(decimal x, decimal y)
+
+    [HttpGet("subtract")]
+    public IActionResult Subtract(double x, double y)
     {
-        return _calculatorService.Subtract(x, y);
+        var result = _calculatorService.Subtract(x, y);
+        return Ok(result);
     }
-    [Route("{x}/{y}")]
-    [HttpGet]
-    public decimal Multiply(decimal x, decimal y)
+
+    [HttpGet("multiply")]
+    public IActionResult Multiply(double x, double y)
     {
-        return _calculatorService.Multiply(x, y);
+        var result = _calculatorService.Multiply(x, y);
+        return Ok(result);
     } 
-    [Route("{x}/{y}")]
-    [HttpGet]
-    public decimal Divide(decimal x, decimal y)
+
+    [HttpGet("divide")]
+    public IActionResult Divide(double x, double y)
     {
-        return _calculatorService.Divide(x, y);
+        var result = _calculatorService.Divide(x, y);
+        return Ok(result);
+
     }
 
 }
