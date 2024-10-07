@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dce919d9ec482d5bdd1b209d623c47b524e2ca1")]
 [assembly: System.Reflection.AssemblyProductAttribute("calAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

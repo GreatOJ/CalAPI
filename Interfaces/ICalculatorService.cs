@@ -1,3 +1,4 @@
+namespace CalAPI.Interface;
 public interface ICalculatorService{
     decimal Add(decimal x, decimal y);
     decimal Subtract(decimal x, decimal y);
